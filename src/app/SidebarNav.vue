@@ -8,15 +8,15 @@
     </div>
 
     <router-link class="nav-link" :to="{name: 'home'}" exact>
-      <Icon icon="discover" class="" /> Discover
+      <Icon icon="discover" class="" /> Découvrir
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'queue'}">
-      <Icon icon="playlist" /> Playing
+      <Icon icon="playlist" /> Lecture
     </router-link>
 
     <small class="sidebar-heading text-muted">
-      Library
+      Bibliothèque
     </small>
 
     <router-link class="nav-link" :to="{name: 'albums-default'}">
@@ -24,7 +24,7 @@
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'artists'}">
-      <Icon icon="library" /> Artists
+      <Icon icon="library" /> Artistes
     </router-link>
 
     <router-link class="nav-item nav-link" :to="{name: 'genres'}">
@@ -32,11 +32,11 @@
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'playlists'}">
-      <Icon icon="list" /> Playlists
+      <Icon icon="list" /> Listes de lecture
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'favourites'}">
-      <Icon icon="heart" /> Favourites
+      <Icon icon="heart" /> Favoris
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'podcasts'}">
@@ -44,11 +44,11 @@
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'radio'}">
-      <Icon icon="radio" /> Radio
+      <Icon icon="radio" /> Radios
     </router-link>
 
     <router-link class="nav-link" :to="{name: 'files'}">
-      <Icon icon="files" /> Files
+      <Icon icon="files" /> Fichiers
     </router-link>
 
     <PlaylistNav />
