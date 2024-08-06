@@ -19,8 +19,8 @@
       </g>
     </svg>
     <span class="text-body ml-2 text-nowrap">
-      <span>airsonic&nbsp;</span>
-      <span class="text-muted">(refix)</span>
+      <span>MUSIKALL&nbsp;</span>
+      <span class="text-muted">PLAYER</span>
     </span>
   </div>
 </template>
