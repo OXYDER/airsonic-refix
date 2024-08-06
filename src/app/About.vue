@@ -5,17 +5,17 @@
     </div>
     <div class="text-center">
       <ExternalLink :href="url">
-        GitHub <Icon icon="link" />
+        MUSIKALL - Votre musique en ligne!<Icon icon="link" />
       </ExternalLink>
       <p>
-        Licensed under the AGPLv3 license.
+        Sous licence AGPLv3.
       </p>
       <div>Build: {{ build }}</div>
       <div>Build date: {{ buildDate }}</div>
     </div>
     <div class="d-flex justify-content-end">
       <button class="btn btn-secondary" @click="$emit('close')">
-        Close
+        Fermer
       </button>
     </div>
   </b-modal>
@@ -34,7 +34,7 @@
     computed: {
       build: () => process.env.VUE_APP_BUILD,
       buildDate: () => process.env.VUE_APP_BUILD_DATE,
-      url: () => 'https://github.com/tamland/airsonic-refix'
+      url: () => 'https://musikall.ca'
     },
   })
 </script>
