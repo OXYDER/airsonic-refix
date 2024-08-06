@@ -22,18 +22,15 @@
           {{ store.username }}
         </b-dropdown-text>
         <b-dropdown-divider />
-        <b-dropdown-item :href="`${store.server}/settings.view`" target="_blank">
-          Server settings
-        </b-dropdown-item>
         <b-dropdown-item-button @click="scan">
-          Scan media folders
+          Mise à jour des dossiers
         </b-dropdown-item-button>
         <b-dropdown-item-button @click="showAboutModal = true">
-          About
+          À Propos
         </b-dropdown-item-button>
         <b-dropdown-divider />
         <b-dropdown-item-button @click="logout">
-          Log out
+          Déconnexion
         </b-dropdown-item-button>
       </b-dropdown>
     </template>
