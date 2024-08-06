@@ -2,7 +2,7 @@
   <b-toast
     v-if="error"
     visible
-    title="Error"
+    title="Erreur"
     variant="danger"
     solid
     no-fade
